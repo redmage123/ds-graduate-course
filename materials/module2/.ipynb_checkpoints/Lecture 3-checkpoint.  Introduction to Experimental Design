@@ -1,0 +1,236 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#Introduction to Experimental Design\n",
+    "\n",
+    "In this lecture, we'll discuss the following topics. \n",
+    "- The steps to conduct a statistical survey\n",
+    "- Basic Terms and Definitions\n",
+    "- Avoiding Bias in Survey Design\n",
+    "- Topics in randomization. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## The guidelines for designing a statistical survey\n",
+    "\n",
+    "1. State an hypothesis. \n",
+    "2. Identify the individuals of interest. \n",
+    "3. Specify the variables to measure. \n",
+    "4. Determine if we will use the entire population or a sample. \n",
+    "5. If we are going to sample, then we need to choose the sample type. \n",
+    "6. Address ethical concerns. For example consider data privacy.\n",
+    "7. Collect the data. \n",
+    "8. Use descriptive or inferential statistics to prove or disprove the hypothesis. \n",
+    "9. Note any concerns about the data collection or analysis. \n",
+    "10. Make suggestions and recommendations for future studies. \n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Given the number of steps needed to create and analyze a survey, it helps to stratify the steps into groups, for example, we can group the first three steps as one strata.\n",
+    "\n",
+    "For example:\n",
+    "Hypothesis:  Does air pollution causes asthma in children who live in urban settings?\n",
+    "Individuals: Children in urban settings. \n",
+    "Variables:  Air pollution and asthma.  Also perhaps measure family income, where the children live, the age of the children, gender, etc. \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Now let's look at our next strata, steps four, five and six. \n",
+    "For our example survey, we can collect the data from several sources, for example, we can collect our own data, or we can obtain the data from a governmental source, where possible. \n",
+    "\n",
+    "Often times, however we'll need to collect data from a sample of the population. When doing this we'll need to consider the following:\n",
+    " - What is our sampling approach?\n",
+    " - Will we need consent if the research is found to be 'human research'?\n",
+    " - If the data we collect is about children, then we'll need to obtain consent from the parents. \n",
+    " \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Experimental vs. Observational studies. \n",
+    "There are two major types of studies. \n",
+    "1.  Experimental studies.  In this study a treatment or an interval is delivately assigned to the individuals.  For example, studying the results of an experimental drug on patients. \n",
+    "The purpose is to study the possible effect of the treatment on the individuals. \n",
+    "\n",
+    "2.  Observational studies. In this type of study, we just observe the individuals. Here we take measurements, but no treatment or observation is assigned to the individuals by us. \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Replication. \n",
+    "When designing a study, it is critical that the study can be replicated by other researchers.\n",
+    "\n",
+    "The ability to replicate a study is a necessary condition of scientific progress. \n",
+    "\n",
+    "This means that we must be rigorous and disciplined when designing and implementing a study. \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Avoiding bias in survey design.\n",
+    "\n",
+    "Surveys can provide useful information.\n",
+    "However, it is important that all aspects of the survey design and administration minimize *bias*. \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Non-response and Volumtary Response. \n",
+    "If many people refuse to fill out your survey, the people w2ho do complete it may have a biased opinion. \n",
+    "\n",
+    "There may be reasons that individuals do not complete your survey that has to do with how they feel about your survey topic. Note that if you have a high non-response rate, it is more likely that the individuals who do respond will have some sort of innate bias that will be reflected in their completion of the survey. \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Truthfulness of Response. \n",
+    "\n",
+    "Be aware that respondents may lie on purpose. \n",
+    "If the question is too personal, or too difficult to think about, then we may get false responses on the survey. \n",
+    "\n",
+    "Respondents may also lie inadvertently. \n",
+    "Respondents may not remember accurately if we ask them a question \n",
+    "about an event that occurred far in the past. \n",
+    "\n",
+    "Respondents may have 'recall bias' if influenced by subsequent events happening after the original event. \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Hidden bias. \n",
+    "The way that a question is worded can bias a survey response. \n",
+    "Often in politics this is known as 'push polling'. \n",
+    "For example:\n",
+    "Question 1.  'Do you agree with Obamacare?'\n",
+    "Question 2.  'More people than ever in the United States have healthcare.  Do you agree with Obamacare?'\n",
+    "\n",
+    "The wording of the question may influence the individuals response. \n",
+    "\n",
+    "Additionally the type of response may also introduce bias.  For example, surveys often try to rate a response on a scale, say one to five or one to ten.  I.e. 'How do you rate the cleanliness of this subway station?' One being terrible, five being very clean.\n",
+    "What does the individual answer if they've never used that particular subway station? \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Interviewer influence.\n",
+    "\n",
+    "When conducting interviews, either over the telephone or in person, the interviewer can influence the collection of the survey data. \n",
+    "\n",
+    "For example, when interviewing a population from a group that may be predominantly of a specific ethnicity, it is often better to have the interviewer be from that same population.  \n",
+    "\n",
+    "All verbal and non-verbal influences matter, for example, the clothing that is worn, the setting that the interview is conducted in. \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Imprecise Wording. \n",
+    "Avoid using vague or imprecise terms in a survey.  For example, when asking an individual if they 'waited a long time' for service\n",
+    "it might be better to ask 'How many minutes did you wait.'\n",
+    "\n",
+    "If a vague wording is necessary try using some 'grounding' language to help make it more precise.  For example:\n",
+    "\n",
+    "'Where ten is extremely important and one is unimportant, how important is having a controllable lifestyle for your future career?  A controllable lifestyle is defined as being able to control the number of hours that you spend practicing your career specialty.'\n",
+    "\n",
+    "Use numbers or define specific things or locations when possible. \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Lurking variables.\n",
+    "A lurking variable is a variable that may be associated with a specific condition, but may not actually cause the condition. \n",
+    "\n",
+    "For example, it is commonly known that the more education a person has, the higher the income level that person enjoys.  However, people with the same education level may not make the same level of income.   Ethnicity and gender can also play a role in the income level.  Ethnicity and gender can be considered *lurking* variables. \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Lurking variables can cause confounding problems. \n",
+    "\n",
+    "Critical thinking is important when creating surveys.  Make sure that these variables are accounted for when drawing conclusions from these surveys.  \n",
+    "\n",
+    "For example, a study on why African Americans and women were making less money than their male and caucasian counterparts, the reasons were not explained by the fact that fewer subjects obtained degrees or were employed, but by the fact that there existed a persistent strain of both racism and sexism in the American job and educational marketplace. \n",
+    "\n",
+    "These 'lurking variables' confounded early studies of this phenomenon as they weren't taken into account. \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Survey results are critically important for the improvement and progression of science. \n",
+    "\n",
+    "It is critical to pay attention to bias and attempt to avoid it when designing and conducting these surveys. \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Topics in Randomization. \n",
+    "\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}

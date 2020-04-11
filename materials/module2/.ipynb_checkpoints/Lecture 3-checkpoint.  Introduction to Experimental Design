@@ -208,6 +208,64 @@
    "metadata": {},
    "source": [
     "## Topics in Randomization. \n",
+    "Randomization is used to assign individuals to treatment groups. \n",
+    "We do this to help prevent bias in selecting members for each group. \n",
+    "\n",
+    "It distributes 'lurking variables' evenly.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Performing a completely randomized study. \n",
+    "\n",
+    "1.  Recruit samples\n",
+    "2.  Before treatment, measure lurking variables (also known as confounders).\n",
+    "3.  Measure the outcome (for example, measuring blood pressure before and after some treatment).\n",
+    "4.  Divide the samples into two groups, one group may get a placebo, while the other group gets the treatment being tested. \n",
+    "5. After treatment, measure lurking variables and outcomes. \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### The placebo effect\n",
+    "A placebo effect occurs when the individual is not getting a treatment, but assumes that he or she is and responds with a favorable outcome. \n",
+    "Placebos are given to a control group or attention control if the treatment is not a drug. \n",
+    "Used as a control or comparison group. \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Blocked randomization\n",
+    "Blocked randomization is used if you want two groups to be equally represented in a random sampling. \n",
+    "\n",
+    "For example, if you want to make sure that a lurking variable, for example gender, is not unbalanced in a sample,  we use *blocked randomization* to overcome this problem. \n",
+    "In this case, we create two blocks, one for males and one for females. \n",
+    "\n",
+    "<img src='graphics/blocked_randomization.png'/>\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "The idea is that when an individual enrolls in the study they are measured and assigned to a block. Once all the individuals are included, we then randomize the blocks.  This gives us a balanced sample frame with a paired group in each block. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Blinding\n",
+    "Blinding is a technique where a person (a participant or researcher) is not told of a treatment assignment.  This is done to remove any hint of unconscious bias among the participants or researchers. \n",
+    "When both the participants and the research staff don't know the treatment assignments, this is a *double-blind* study. \n",
     "\n"
    ]
   }
